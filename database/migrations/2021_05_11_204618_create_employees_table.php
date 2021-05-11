@@ -16,7 +16,6 @@ class CreateEmployeesTable extends Migration
         Schema::create('employees', function (Blueprint $table) {
             $table->id();
 
-
             $table->string('full_name_en');
             $table->string('full_name_ar')->nullable()->default('NULL');
             $table->string('full_name_fa')->nullable()->default('NULL');
@@ -36,11 +35,11 @@ class CreateEmployeesTable extends Migration
             $table->integer('number_of_work_prmit_active');
             $table->integer('number_of_work_prmit_token');
 
-            $table->integer('address_id')->unsigned();
+            $table->bigInteger('address_id')->unsigned();
             $table->foreign('address_id')->references('id')->on('addresses')->onUpdate('cascade')->onDelete('cascade');
 
-            $table->integer('more_info_id')->unsigned();
-            $table->foreign('')->references('')->on()->onUpdate()->onDelete('cascade');
+            $table->bigInteger('more_info_id')->unsigned();
+            $table->foreign('more_info_id')->references('id')->on('more_infos')->onUpdate('cascade')->onDelete('cascade');
 
             $table->string('email')->nullable()->default('NULL');
             $table->bigInteger('phone');

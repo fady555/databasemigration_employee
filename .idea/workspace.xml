@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4213425e-20f9-42dd-bc0c-e649ebfc5a09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153659_create_jops_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153659_create_jops_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153724_create_degrees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153724_create_degrees_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153754_create_statuses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153754_create_statuses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153831_create_addresses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153831_create_addresses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153909_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153909_create_employees_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153940_create_more_infos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153940_create_more_infos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153909_create_employees_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153940_create_more_infos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_154019_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_154058_create_premises_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +154,7 @@
       <workItem from="1620174040011" duration="4398000" />
       <workItem from="1620340407064" duration="143000" />
       <workItem from="1620761809658" duration="1641000" />
+      <workItem from="1620764522438" duration="1710000" />
     </task>
     <servers />
   </component>

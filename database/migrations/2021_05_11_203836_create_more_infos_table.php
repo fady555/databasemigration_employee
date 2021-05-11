@@ -15,10 +15,8 @@ class CreateMoreInfosTable extends Migration
     {
         Schema::create('more_infos', function (Blueprint $table) {
             $table->id();
-            $table->int('employee_id');
             $table->longText('files');
             $table->longText('data');
-
             $table->timestamps();
         });
     }
