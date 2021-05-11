@@ -17,27 +17,36 @@ class CreateEmployeesTable extends Migration
             $table->id();
 
 
-            /*$table->string('full_name_ar');
+            $table->string('full_name_en');
+            $table->string('full_name_ar')->nullable()->default('NULL');
             $table->string('full_name_fa')->nullable()->default('NULL');
-            $table->tinyInteger('age')->nullable()->default('NULL');
+            $table->tinyInteger('age');
             $table->string('avatare')->nullable()->default('NULL');
 
-            $table->bigInteger('jop_id')->unsigned()->nullable()->default('NULL');
-            $table->integer('id_status_of_employe',11)->unsigned()->nullable()->default('NULL');
-            $table->datetime('date_of_instert_employee')->nullable()->default('NULL');
-            $table->timestamp('date_of_work')->default('current_timestamp');
-            $table->smallInteger('salary',6)->nullable()->default('NULL');
-            $table->bigInteger('personal_identity_id',20)->nullable()->default('NULL');
-            ->nullable()->default('NULL');
-            $table->integer('number_of_work_prmit_active',11)->nullable()->default('NULL');
-            $table->integer('number_of_work_prmit_token',11)->nullable()->default('NULL');
-            $table->integer('address_id',11)->unsigned()->nullable()->default('NULL');
-            $table->integer('more_info_id',11)->unsigned()->nullable()->default('NULL');
-            $table->string('email')->nullable()->default('NULL');
-            $table->bigInteger('phone',20)->nullable()->default('NULL');
-            ->nullable()->default('NULL');
+            $table->bigInteger('jop_id')->unsigned();
+            $table->foreign('jop_id')->references('id')->on('jops')->onUpdate('cascade')->onDelete('cascade');
 
-            $table->timestamps();*/
+            $table->bigInteger('status_id')->unsigned();
+            $table->foreign('status_id')->references('id')->on('statuses')->onUpdate('cascade')->onDelete('cascade');
+
+
+            $table->date('date_of_work');
+            $table->smallInteger('salary');
+            $table->bigInteger('personal_identity_id');
+            $table->integer('number_of_work_prmit_active');
+            $table->integer('number_of_work_prmit_token');
+
+            $table->integer('address_id')->unsigned();
+            $table->foreign('address_id')->references('id')->on('addresses')->onUpdate('cascade')->onDelete('cascade');
+
+            $table->integer('more_info_id')->unsigned();
+            $table->foreign('')->references('')->on()->onUpdate()->onDelete('cascade');
+
+            $table->string('email')->nullable()->default('NULL');
+            $table->bigInteger('phone');
+            $table->longText('contract');
+
+            $table->timestamps();
         });
     }
 
