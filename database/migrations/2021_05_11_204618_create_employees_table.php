@@ -30,7 +30,7 @@ class CreateEmployeesTable extends Migration
 
 
             $table->date('date_of_work');
-            $table->smallInteger('salary');
+            $table->double('salary');
             $table->bigInteger('personal_identity_id');
             $table->integer('number_of_work_prmit_active');
             $table->integer('number_of_work_prmit_token');
@@ -44,6 +44,9 @@ class CreateEmployeesTable extends Migration
             $table->string('email')->nullable()->default('NULL');
             $table->bigInteger('phone');
             $table->longText('contract');
+
+            $table->string('name_bank')->nullable();
+            $table->string('account_number_bank')->nullable();
 
             $table->timestamps();
         });

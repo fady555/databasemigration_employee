@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4213425e-20f9-42dd-bc0c-e649ebfc5a09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/database_employ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/database_employ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/AddressFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/AddressFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/JopFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/JopFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153659_create_jops_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153659_create_jops_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153724_create_degrees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153724_create_degrees_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_153754_create_statuses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_28_153754_create_statuses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_11_204618_create_employees_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_11_204618_create_employees_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +161,7 @@
       <workItem from="1620764522438" duration="1710000" />
       <workItem from="1620766422139" duration="345000" />
       <workItem from="1620775753963" duration="1630000" />
-      <workItem from="1620777552451" duration="12137000" />
+      <workItem from="1620777552451" duration="15617000" />
     </task>
     <servers />
   </component>
