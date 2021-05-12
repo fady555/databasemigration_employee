@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::get('/5', function () {
+
+    //$faker = Faker\Factory::create('ar_JO');
+    //$faker = Faker\Factory::create('fr_FR');
+    //echo $faker->address;
+});
